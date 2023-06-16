@@ -4,3 +4,47 @@ body{
 h1{
     color: chocolate;
 }
+.form{
+    width: 100%;
+
+}
+.form-config{
+    width: 40%;
+    height: auto;
+    background-color:rgba(196, 206, 203, 0.421);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 7px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+}
+.form-config a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.form-config form input[type="password"], input[type="email"]{
+    width: 80%;
+    height: 50px;
+    border: 2px solid rgb(249, 242, 242);
+    border-radius: 7px;
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(25, 54, 55, 0.662);
+}
+.form-config form input [type="submit"]{
+    height: 45px;
+}
+.form-config label{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-config{
+        width: 97%;
+    }
+  }

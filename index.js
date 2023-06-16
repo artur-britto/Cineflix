@@ -25,6 +25,16 @@ app.get('/home', (req, res) => {
     res.send('<h1>Home</h1>')
 })
 
+//Rota login
+app.get('/login', (req, res) => {
+    res.render('login.ejs') 
+})
+
+//Rota cadastro
+app.get('/cadastro', (req, res) =>{
+    res.render('cadastro.ejs')
+})
+
 //Rota para filmes
 app.get('/filmes', (req, res) => {
     res.render('filmes')
