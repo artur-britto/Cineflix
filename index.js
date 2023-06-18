@@ -24,6 +24,10 @@ app.get('/', (req, res) => {
 app.get('/home', (req, res) => {
     res.send('<h1>Home</h1>')
 })
+//rota main
+app.get('/main', (req, res) => {
+    res.render('page/main')
+})
 
 //Rota login
 app.get('/login', (req, res) => {
