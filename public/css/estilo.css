@@ -4,7 +4,7 @@ body{
     background-size: 1500px auto;
 }
 h1{
-    color: chocolate;
+    color: rgb(230, 103, 12);
 }
 .form{
     width: 100%;
@@ -50,8 +50,31 @@ h1{
     color:white;
 }
 
+.efeito:hover {
+    transition: 1s;
+    transform: scale(1.2,1.2);
+}
+
+.efeitoCont{
+    transition-duration: 1s;
+}
+
+.corFundo{
+    background-image: linear-gradient(black, rgb(17,17,78));
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: auto;
+}
+
 @media only screen and (max-width: 600px) {
     .form-config{
         width: 97%;
     }
-  }
+}
+.categoria{
+    color:chocolate;
+}
+
+.title {
+    color: chocolate;
+}
