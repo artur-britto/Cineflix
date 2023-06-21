@@ -41,7 +41,16 @@ app.get('/cadastro', (req, res) =>{
 
 //Rota para filmes
 app.get('/filmes', (req, res) => {
-    res.render('filmes')
+    res.render('page/filmes')
+})
+//Rota para Séries
+app.get('/series', (req, res) => {
+    res.render('page/series')
+})
+
+//Rota para Documentários
+app.get('/documentarios', (req, res) => {
+    res.render('page/documentarios')
 })
 
     //Iniciando o servidor
